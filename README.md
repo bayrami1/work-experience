@@ -16,9 +16,7 @@
 - [EY](#ey)
 - [NFL](#nfl)
 
-<h3 align="center">AEG</h3>
-
-#### Ticketing Application
+## AEG: Ticketing Application
 Description of Ticketing Application and its purpose 
 
 #### Complex issues on this project 
