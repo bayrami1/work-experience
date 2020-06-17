@@ -17,16 +17,17 @@
 - [NFL](#nfl)
 
 ## AEG: Ticketing Application
-Anschutz Entertainment Group, one of the largest entertainment companies in the world needed a new Ticket Reporting Application to track their international ticket sales in real time. 
+Anschutz Entertainment Group, one of the largest entertainment companies in the world needed a new Ticket Reporting Application to track their international ticket sales. 
 
-#### Complex issues on this project 
+The objective of the Ticketing Application was to consolidate ticket sale data from 3rd party vendors and import them into its back end for reporting purposes. 
 
-#### Architecture 
+AEG does over $25mm in Ticket sales annually from multiple different ticket vendors, which led to multiple challenges highlighted below. 
 
-#### ETL
-AEG does over $25mm in Ticket sales annually from multiple different ticket vendors. 
+#### ETL 
 
 To make sense of all this disparate data I had to first decide on a standardized format to store the data in our applications BE, this required investigation and defining the raw tables we were ingesting then standardizing how they would be saved on our back end. (Refer to Steps 1-3 of ETL Documentation)   
+
+#### Architecture 
 
 #### Notifications
 
