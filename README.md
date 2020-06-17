@@ -1,6 +1,8 @@
-# work-experience-
+# Welcome to my Portfolio! 
 
-This github has been created to showcase the various projects I have worked on over the last few years
+<h3 align="center">Portfolio</h3>
+
+This repo 
 
 ## Recent Projects 
 
