@@ -12,9 +12,7 @@
 
 ## Table of Contents 
 
-- [Work Projects](#work-projects)
-
-## Work Projects 
+- [AEG](#aeg)
 
 ### AEG
 #### Ticketing Application
