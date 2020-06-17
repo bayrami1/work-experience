@@ -1,6 +1,4 @@
-# Welcome to my Portfolio! 
-
-<h3 align="center">Portfolio</h3>
+<h1 align="center">Welcome to my Portfolio!</h3>
 
 This repo 
 
