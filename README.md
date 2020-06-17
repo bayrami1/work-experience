@@ -1,3 +1,5 @@
+![screenshot](assets/img/screenshot.JPG)
+
 <h1 align="center">Welcome to my Portfolio!</h3>
 
 This repo 
