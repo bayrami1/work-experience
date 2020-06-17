@@ -7,7 +7,7 @@
 <p align="center">
   Hello world, thanks for stoping by my personal Github.
   <br>
-  The purpose of this repo is to share a little about myself and the projects I have worked on over the years.
+  Below you'll find background on myself and the projects I have worked on over the years.
 </p>
 
 ## Table of Contents 
