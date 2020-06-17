@@ -4,9 +4,15 @@
 
 <h1 align="center">Bijan's Portfolio</h3>
 
-Hello world, thanks for stoping by my personal Github. The purpose of this 
+Hello world, thanks for stoping by my personal Github. 
 
-## Recent Projects 
+The purpose of this repo is to share a little about myself and the projects I have worked on over the years.
+
+## Table of Contents 
+
+- [Work Projects](#work-projects)
+
+## Work Projects 
 
 ### AEG
 #### Ticketing Application
