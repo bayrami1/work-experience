@@ -31,9 +31,9 @@ I was responsible for defining the tables required at each step of the transform
 
 [Ticketing ETL Product Requirements](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/ETL%20Product%20Requirements%20.pdf)
 
-#### Architecture 
+#### Matching Ticket Events to Events from Different Systems
 
-#### Notifications
+#### Architecture 
 
 ### EY
 #### Storage Manager 
