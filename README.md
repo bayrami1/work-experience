@@ -17,7 +17,7 @@
 - [NFL](#nfl)
 
 ## AEG: Ticketing Application
-Objective of the ticketing application is to get ticket inventory data from 3rd parties and map it to specific events created in external applications used at AEG.
+Objective of the ticketing application is to import and consolidate ticket inventory data from 3rd parties and map it to specific events created in external applications used at AEG.
 
 #### Ticketing ETL 
 INSERT image from Ticketing ETL
