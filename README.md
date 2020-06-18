@@ -44,7 +44,8 @@ The first step requires standardizing the ```booking_events``` created in other 
 
 
 
-#### Architecture 
+#### Access Control and Privacy Settings
+Talk about how it took a lot of user interviews and because it directly impacted business it had to be approved by key stakeholders and product council. 
 
 ### EY
 #### Storage Manager 
