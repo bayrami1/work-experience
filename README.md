@@ -17,15 +17,17 @@
 - [NFL](#nfl)
 
 ## AEG: Ticketing Application
-Anschutz Entertainment Group, one of the largest entertainment companies in the world needed a new Ticket Reporting Application to track their international ticket sales. 
+Objective of the ticketing application is to get ticket inventory data from 3rd parties and map it to specific events created in external applications used at AEG.
 
-The objective of the Ticketing Application was to consolidate ticket sale data from 3rd party vendors and import them into its back end for reporting purposes. 
+#### Ticketing ETL 
+INSERT image from Ticketing ETL
+Raw ticket feeds from 3rd parties are first imported into AEG's datawarehouse for historical purposes.
 
-AEG does over $25mm in Ticket sales annually from multiple different ticket vendors, which led to multiple challenges highlighted below. 
+Upon import they are transformed from the ticket_feed_raw format to the intermediate ticket_feed_wrap table which is saved on the Ticketing Applications BE 
 
-#### ETL 
+The ticket_feed_wrap tables are then transformed once again and split into their final tables the ticket_events and daily_counts tables
 
-To make sense of all this disparate data I had to first decide on a standardized format to store the data in our applications BE, this required investigation and defining the raw tables we were ingesting then standardizing how they would be saved on our back end. (Refer to Steps 1-3 of ETL Documentation)   
+I was responsible for defining the tables required in each step of the transformation, along with testing the outcome of the ETL. Please refer to the documentation HERE for a step by step description of this process. 
 
 #### Architecture 
 
