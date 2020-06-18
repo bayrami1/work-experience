@@ -19,28 +19,26 @@
 ## AEG: Ticketing Application
 AEG is one of the largest companies in the live entertainment industry, they book shows at venues and generate revenue from ticket sales. 
 
-The objectives of the AEG Ticketing Application are to import and consolidate ticket inventory data from 3rd parties and then map it to specific events created in external applications used at AEG.
+The objectives of the AEG Ticketing Application are to first ingest ticket sale data from 3rd parties then associate it with events created in external booking applications.
 
 Below are several features which I enjoyed implementating for this application
 
-#### Ticketing ETL 
+#### Ticket Sales ETL 
 ![screenshot](assets/img/Presentation2.jpg)
-Raw ticket feeds from 3rd parties are first imported into AEG's datawarehouse for historical purposes.
+Everytime tickets are sold for an AEG show raw ticket sale data from 3rd parties is sent to AEG's datawarehouse.
 
-Upon import they are transformed from the raw format to the intermediate ```ticket_feed_wrap``` table which is saved on the Ticketing Applications BE 
+The raw data is then available for the Ticketing Application to ingest, upon import the raw data is transformed to the intermediate ```ticket_feed_wrap``` table.
 
-The ```ticket_feed_wrap``` tables are then transformed once again and split into their target tables ```ticket_events``` and ```daily_counts```
+The ```ticket_feed_wrap``` tables are then transformed and split into their target tables ```ticket_events``` and ```daily_counts```. 
 
-I was responsible for defining the tables required at each step of the transformation, along with testing the outcome of the ETL. 
+I was responsible for defining the tables required at each step of the transformation, along with testing the outcome of the Ticket Sales ETL. 
 
 See documentation below for details: 
 
 [Ticketing ETL Product Requirements](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/ETL%20Product%20Requirements%20.pdf)
 
-#### Matching Ticket Events to Events from Different Systems
-Everytime ticket sale is imported into the Ticketing App BE a new ```ticket_events``` and ```daily_counts``` object is created.
-
-New ticket sales only happen after a performance is booked in AEG's booking system,
+#### Matching Ticket Events to Events in different applications
+Everytime a ticket sale is imported into the Ticketing App BE new ```ticket_events``` and ```daily_counts``` objects are created. 
 
 At AEG they used different applications to create ```booking_events``` which could be associated with a ```ticket_event``` created in the Ticketing Application. 
 
