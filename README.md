@@ -36,7 +36,7 @@ For a step by step description of this process please refer to documentation bel
 [Ticketing ETL Product Requirements](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/ETL%20Product%20Requirements%20.pdf)
 
 #### Matching Ticket Events to Events from Different Systems
-Everytime a new feed was imported into the TA BE a new ```ticket_events``` object was created.
+Everytime a new ticket sale was imported into the TA BE a new ```ticket_events``` object was created.
 
 At AEG they used different applications to create ```booking_events``` which could be associated with a ```ticket_event``` created in the Ticketing Application. 
 
