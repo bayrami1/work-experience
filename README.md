@@ -31,7 +31,7 @@ The ```ticket_feed_wrap``` tables are then transformed once again and split into
 
 I was responsible for defining the tables required at each step of the transformation, along with testing the outcome of the ETL. 
 
-For a step by step description of this process please refer to documentation below: 
+See documentation below for details: 
 
 [Ticketing ETL Product Requirements](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/ETL%20Product%20Requirements%20.pdf)
 
