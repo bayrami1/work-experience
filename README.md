@@ -25,15 +25,24 @@ Below are several features which I enjoyed implementating for this application
 ![screenshot](assets/img/Presentation2.jpg)
 Raw ticket feeds from 3rd parties are first imported into AEG's datawarehouse for historical purposes.
 
-Upon import they are transformed from the ticket_feed_raw format to the intermediate ticket_feed_wrap table which is saved on the Ticketing Applications BE 
+Upon import they are transformed from the raw format to the intermediate ```ticket_feed_wrap``` table which is saved on the Ticketing Applications BE 
 
-The ticket_feed_wrap tables are then transformed once again and split into their final tables the ticket_events and daily_counts tables
+The ```ticket_feed_wrap``` tables are then transformed once again and split into their final tables the ```ticket_events``` and ```daily_counts``` tables
 
 I was responsible for defining the tables required at each step of the transformation, along with testing the outcome of the ETL. For a step by step description of this process please refer to documentation below: 
 
 [Ticketing ETL Product Requirements](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/ETL%20Product%20Requirements%20.pdf)
 
 #### Matching Ticket Events to Events from Different Systems
+Everytime a new feed was imported into the TA BE a new ```ticket_events``` object was created.
+
+At AEG they used different applications to create ```booking_events``` which could be associated with a ```ticket_event``` created in the Ticketing Application. 
+
+As a result we had to create another ETL to import ```booking_events``` from different applications store them on our BE and create an intuitive workflow that would allow users to use an interface to make the association between the events. 
+
+The first step requires standardizing the ```booking_events``` created in other systems and import them into our backend, which is covered in the documentation below: 
+
+
 
 #### Architecture 
 
