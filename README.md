@@ -17,7 +17,9 @@
 - [NFL](#nfl)
 
 ## AEG: Ticketing Application
-Objective of the ticketing application is to import and consolidate ticket inventory data from 3rd parties and map it to specific events created in external applications used at AEG.
+AEG is one of the largest companies in the live entertainment industry, they book shows at venues and generate revenue from ticket sales. 
+
+The objectives of the AEG Ticketing Application are to import and consolidate ticket inventory data from 3rd parties and then map it to specific events created in external applications used at AEG.
 
 Below are several features which I enjoyed implementating for this application
 
@@ -27,7 +29,7 @@ Raw ticket feeds from 3rd parties are first imported into AEG's datawarehouse fo
 
 Upon import they are transformed from the raw format to the intermediate ```ticket_feed_wrap``` table which is saved on the Ticketing Applications BE 
 
-The ```ticket_feed_wrap``` tables are then transformed once again and split into their final tables the ```ticket_events``` and ```daily_counts``` tables
+The ```ticket_feed_wrap``` tables are then transformed once again and split into their target tables ```ticket_events``` and ```daily_counts```
 
 I was responsible for defining the tables required at each step of the transformation, along with testing the outcome of the ETL. 
 
@@ -36,7 +38,9 @@ See documentation below for details:
 [Ticketing ETL Product Requirements](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/ETL%20Product%20Requirements%20.pdf)
 
 #### Matching Ticket Events to Events from Different Systems
-Everytime a new ticket sale was imported into the TA BE a new ```ticket_events``` object was created.
+Everytime ticket sale is imported into the Ticketing App BE a new ```ticket_events``` and ```daily_counts``` object is created.
+
+New ticket sales only happen after a performance is booked in AEG's booking system,
 
 At AEG they used different applications to create ```booking_events``` which could be associated with a ```ticket_event``` created in the Ticketing Application. 
 
