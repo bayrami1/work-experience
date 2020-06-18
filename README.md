@@ -19,6 +19,8 @@
 ## AEG: Ticketing Application
 Objective of the ticketing application is to import and consolidate ticket inventory data from 3rd parties and map it to specific events created in external applications used at AEG.
 
+Below are several features which I enjoyed implementating for this application
+
 #### Ticketing ETL 
 ![screenshot](assets/img/Presentation2.jpg)
 Raw ticket feeds from 3rd parties are first imported into AEG's datawarehouse for historical purposes.
