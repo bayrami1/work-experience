@@ -27,7 +27,9 @@ Upon import they are transformed from the ticket_feed_raw format to the intermed
 
 The ticket_feed_wrap tables are then transformed once again and split into their final tables the ticket_events and daily_counts tables
 
-I was responsible for defining the tables required in each step of the transformation, along with testing the outcome of the ETL. Please refer to the documentation HERE for a step by step description of this process. 
+I was responsible for defining the tables required at each step of the transformation, along with testing the outcome of the ETL. For a step by step description of this process please refer to documentation below: 
+
+[Ticketing ETL Product Requirements](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/ETL%20Product%20Requirements%20.pdf)
 
 #### Architecture 
 
