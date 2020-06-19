@@ -38,13 +38,19 @@ See documentation below for details:
 [Ticketing ETL Product Requirements](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/ETL%20Product%20Requirements%20.pdf)
 
 #### Matching Ticket Events to Events in different applications
-Everytime a ticket sale is imported into the Ticketing App BE new ```ticket_events``` and ```daily_counts``` objects are created. 
+Everytime a ticket sale is imported into the Ticketing App BE new ```ticket_events``` and ```daily_counts``` objects are created, these tables represent the ticket sales associated with a given show or ```booking_events``` created in AEGs booking applications.   
 
-At AEG they used different applications to create ```booking_events``` which could be associated with a ```ticket_event``` created in the Ticketing Application. 
+The second objective of the Ticketing Application is too associate ```ticket_events``` with ```booking_events```, for reporting and forecasting. 
 
-As a result we had to create another ETL to import ```booking_events``` from different applications store them on our BE and create an intuitive workflow that would allow users to use an interface to make the association between the events. 
+(include reworked ppt and remove microservice) 
 
-The first step requires standardizing the ```booking_events``` created in other systems and import them into our backend, which is covered in the documentation below: 
+To accomplish this a second ETL pipeline was created to import ```booking_events``` from different applications store them on the Ticketing BE and then create an workflow that would allow users to use an interface to make the association between the events. 
+
+The first step required standardizing the ```booking_events``` created in other systems and import them into our backend, which is covered in the documentation below: 
+
+
+
+The second step required working with design and engineering to create an intuitive workflow that would allow users to easily make this association (NOTE: there are no recommended booking events for the given ticket events in the screenshot above because we were using test data) 
 
 
 
