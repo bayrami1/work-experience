@@ -52,7 +52,7 @@ The first step required standardizing the ```booking_events``` created in other 
 
 The second step required creating an intuitive workflow that would allow users to easily make the association between Ticket Events and Booking Events (NOTE: there are no recommended booking events for the given ticket events in the screenshot above because we were using test data) 
 
-What made this feature so exciting was the need to have a deep understanding of the data and technical requirements but also required working with design to make sure once all the data was in the right place we had the appropriate UX in place so that business goals were accomplished. I worked very closely with the data team at AEG to make sure the ETL went smoothly and also working with design to make sure that we had the appropriate UX in place.  
+Successfully delivering this feauture required working closely with engineering, UX, and business teams. Collaborating with a  cross-functional team to deliver a complex feature is what made shipping this feature so fulfulling. 
 
 #### Access Control and Privacy Settings
 Talk about how it took a lot of user interviews and because it directly impacted business it had to be approved by key stakeholders and product council. 
