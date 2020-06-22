@@ -48,7 +48,7 @@ The first step required standardizing the raw ```booking_events``` created in ot
 
 [Booking Events Import](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/TA%20_%20booking_events%20creation%20.pdf)
 
-![screenshot](
+![screenshot](assets/img/match_events.jpg)
 
 The second step required creating an intuitive workflow that would allow users to easily make the association between Ticket Events and Booking Events (NOTE: there are no recommended booking events for the given ticket events in the screenshot above because we were using test data) 
 
