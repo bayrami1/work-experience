@@ -42,7 +42,7 @@ Everytime a ticket sale is imported into the Ticketing App BE new ```ticket_even
 
 The second objective of the Ticketing Application is too associate ```ticket_events``` with ```booking_events```, for reporting and forecasting. 
 
-(include reworked ppt and remove microservice) 
+![screenshot](assets/img/Event_ID_association.jpg)
 
 The first step required standardizing the raw ```booking_events``` created in other systems and then importing them from a datawarehouse into our backend, which is covered in the documentation below: 
 
