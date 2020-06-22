@@ -44,9 +44,7 @@ The second objective of the Ticketing Application is too associate ```ticket_eve
 
 (include reworked ppt and remove microservice) 
 
-To accomplish this a second ETL pipeline was created to import ```booking_events``` from different applications store them on the Ticketing BE and then create an workflow that would allow users to use an interface to make the association between the events. 
-
-The first step required standardizing the ```booking_events``` created in other systems and import them into our backend, which is covered in the documentation below: 
+The first step required standardizing the raw ```booking_events``` created in other systems and then importing them from a datawarehouse into our backend, which is covered in the documentation below: 
 
 [Booking Events Import](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/TA%20_%20booking_events%20creation%20.pdf)
 
