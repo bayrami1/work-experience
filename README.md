@@ -63,7 +63,7 @@ I added a ticketer role, and groups which limited the events users had access to
 
 The documentation below outlines the roles and respective priviliges, and the list groups used. The appendix also includes outlines for the user stories required to implement the roles and privacy settings:
 
-
+[Access Control and Privacy Settings](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/TA%20_%20Access%20Control%20and%20Privacy%20Settings.pdf)
 
 ## EY
 #### Storage Manager 
