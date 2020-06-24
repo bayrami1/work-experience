@@ -12,11 +12,11 @@
 
 ## Table of Contents 
 
-- [AEG](#aeg)
+- [AEG](#aeg-ticketing-application)
 - [EY](#ey)
 - [NFL](#nfl)
 
-## AEG: Ticketing Application
+## AEG Ticketing Application
 AEG is one of the largest companies in the live entertainment industry, they book shows at venues and generate revenue from ticket sales. 
 
 The objectives of the AEG Ticketing Application are to first ingest ticket sale data from 3rd parties then associate it with events created in external booking applications.
