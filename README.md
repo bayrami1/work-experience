@@ -23,8 +23,6 @@ The objectives of the AEG Ticketing Application are to first ingest ticket sale 
 
 Below are several features which I enjoyed implementating for this application
 
-test
-
 #### Ticket Sales ETL 
 ![screenshot](assets/img/Presentation2.jpg)
 Everytime tickets are sold for an AEG show raw ticket sale data from 3rd parties is sent to AEG's datawarehouse.
