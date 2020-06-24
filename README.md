@@ -40,7 +40,7 @@ See documentation below for details:
 [Ticketing ETL Product Requirements](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/ETL%20Product%20Requirements%20.pdf)
 
 #### Matching Ticket Events to Events in different applications
-Everytime a ticket sale is imported into the Ticketing App BE new ```ticket_events``` and ```daily_counts``` objects are created, these tables represent the ticket sales associated with a given show or ```booking_events``` created in AEGs booking applications.   
+Everytime a ticket sale is imported into the Ticketing App backend a new ```ticket_events``` and ```daily_counts``` objects are created, these tables represent the ticket sales associated with a given show or ```booking_events``` created in AEGs booking applications.   
 
 The second objective of the Ticketing Application is too associate ```ticket_events``` with ```booking_events```, for reporting and forecasting. 
 
@@ -57,7 +57,13 @@ The second step required creating an intuitive workflow that would allow users t
 Successfully delivering this feauture required working closely with engineering, UX, and business teams. Collaborating with a  cross-functional team to deliver a complex feature is what made shipping this feature so fulfulling. 
 
 #### Access Control and Privacy Settings
-Talk about how it took a lot of user interviews and because it directly impacted business it had to be approved by key stakeholders and product council. 
+Defining the roles for this application took extensive user interviews, there was only one role in the last application they used and this led to major issues between business units. 
+
+I added a ticketer role, and groups which limited the events users had access too which greatly reduced the amount of friction between business units. 
+
+The documentation below outlines the roles and respective priviliges, and the list groups used. The appendix also includes outlines for the user stories required to implement the roles and privacy settings:
+
+
 
 ## EY
 #### Storage Manager 
