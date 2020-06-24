@@ -46,15 +46,17 @@ The second objective of the Ticketing Application is too associate ```ticket_eve
 
 ![screenshot](assets/img/Event_ID_association.jpg)
 
-The first step required standardizing the raw ```booking_events``` created in other systems and then importing them from a datawarehouse into our backend, which is covered in the documentation below: 
-
-[Booking Events Import](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/TA%20_%20booking_events%20creation%20.pdf)
+The first step required standardizing the raw ```booking_events``` created in other systems and then importing them from a datawarehouse into our backend. 
 
 ![screenshot](assets/img/match_events.jpg)
 
 The second step required creating an intuitive workflow that would allow users to easily make the association between Ticket Events and Booking Events (NOTE: there are no recommended booking events for the given ticket events in the screenshot above because we were using test data) 
 
 Successfully delivering this feauture required working closely with engineering, UX, and business teams. Collaborating with a  cross-functional team to deliver a complex feature is what made shipping this feature so fulfulling. 
+
+See documentation below for more details: 
+
+[Booking Events Import](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/TA%20_%20booking_events%20creation%20.pdf)
 
 #### Access Control and Privacy Settings
 Defining the roles for this application took extensive user interviews, there was only one role in the last application they used and this led to major issues between business units. 
