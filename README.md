@@ -54,7 +54,7 @@ Successfully delivering this feauture required working closely with engineering,
 
 See documentation below for more details: 
 
-[Booking Events Import](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/TA%20_%20booking_events%20creation%20.pdf)
+[Booking Events Import](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/booking_events%20documentation%20.pdf)
 
 #### Access Control and Privacy Settings
 Defining the roles for this application took extensive user interviews, there was only one role in the last application they used and this led to major issues between business units. 
