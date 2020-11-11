@@ -1,7 +1,8 @@
+<!--
 <p align="center">
   <img width="200" height="200" src="https://media-exp1.licdn.com/dms/image/C4E03AQFr1viytj_VQA/profile-displayphoto-shrink_200_200/0?e=1597881600&v=beta&t=5PTBuTdNqtTcUbtcfeRLDowPjvtODnUS1q7lS8NrY4g">
 </p>
-
+-->
 <h3 align="center">Bijan's Portfolio</h3>
 
 <p align="center">
