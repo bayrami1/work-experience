@@ -33,7 +33,7 @@ I was responsible for defining the tables required at each step of the transform
 
 See documentation below for details: 
 
-[Ticketing ETL Product Requirements](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/ETL%20Product%20Requirements%20.pdf)
+[Ticketing ETL Documentation](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/ETL%20Product%20Requirements%20.pdf)
 
 #### Matching Ticket Events to Events in different applications
 Everytime a ticket sale is imported into the Ticketing App backend a new ```ticket_events``` and ```daily_counts``` objects are created, these tables represent the ticket sales associated with a given show or ```booking_events``` created in AEGs booking applications.   
@@ -52,7 +52,7 @@ Successfully delivering this feauture required working closely with engineering,
 
 See documentation below for more details: 
 
-[Booking Events Import](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/booking_events%20documentation%20.pdf)
+[Booking Events Import Documentation](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/booking_events%20documentation%20.pdf)
 
 #### Access Control and Privacy Settings
 Defining the roles for this application took extensive user interviews, there was only one role in the last application they used and this led to major issues between business units. 
@@ -61,5 +61,5 @@ I added a ticketer role, and groups which limited the events users had access to
 
 The documentation below outlines the roles and respective priviliges, and the list groups used. The appendix also includes outlines for the user stories required to implement the roles and privacy settings:
 
-[Access Control and Privacy Settings](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/TA%20_%20Access%20Control%20and%20Privacy%20Settings.pdf)
+[Access Control and Privacy Settings Documentation](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/TA%20_%20Access%20Control%20and%20Privacy%20Settings.pdf)
 
