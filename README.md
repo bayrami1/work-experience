@@ -6,16 +6,13 @@
 <h3 align="center">Bijan's Portfolio</h3>
 
 <p align="center">
-  Hello world, thanks for stoping by my personal Github.
   <br>
-  Below you'll find background on myself and the projects I have worked on over the years.
+  Below I have included background information on the Ticketing Application (TA) I built for the Anschutz Entertainment Group (AEG) while I was working at Kunai Consulting as a Techincal Project Manager. I have also included some examples of the technical documentation I created for the developers on the prtoject as well as other internal technical and non-technical teams. 
+
+<p align="center">
+The Anschutz Entertainment Group, with 11,000 employees and an annual revenue of $20B as of 2022, considers this application crucial to their business. Successfully delivering it ranks among my greatest accomplishments. 
+
 </p>
-
-## Table of Contents 
-
-- [AEG](#aeg-ticketing-application)
-- [EY](#ey)
-- [NFL](#nfl)
 
 ## AEG Data Warehouse and Reporting Platform 
 AEG is one of the largest companies in the live entertainment industry, they book shows at venues and generate revenue from ticket sales. 
@@ -66,24 +63,3 @@ The documentation below outlines the roles and respective priviliges, and the li
 
 [Access Control and Privacy Settings](https://github.com/bayrami1/work-experience-/blob/master/AEG%20Project/TA%20_%20Access%20Control%20and%20Privacy%20Settings.pdf)
 
-## EY
-#### Storage Manager and Tax Application
-
-EY needed a secure way to manage their sensitive tax data, and they needad an exposed API from this datawarehouse to read data into the Tax Application which was used to process the data. Additionally, this implementation had to be cloud provider agnostic so we had could not rely on and specific managed service. 
-
-My team was responsible for building both the Storage Manager a datawarehouse that relied on a key management system to create access tokens and the Tax application which integrated with the storage manager and processed the data to automate work that was previously done manually. 
-
-The delivery of the Storage Manager and the automated jobs ran through the Tax Application allowed the Tax team to increase efficiency of their team by 25%
-
-Due to the proprietary data for this project I am unable to share documentation or architecture relating to the project. 
-
-## NFL 
-#### Fantasy Football Data Analysis Project
-
-When I was a senior at UCLA the NFL hired me as a Product Manager to investigate their NFL Fantasy Football user data. 
-
-The objective of our project was to find trends in Fantasy Football data to increase the retention rate of NFL Fantasy Football users.
-
-My team of data scientists used SQL to structure over four million observations, then used R to create linear models that predicted play time of NFL Fantasy Football users.
-
-Due to the proprietary data for this project I am unable to share documentation or architecture relating to the project. 
