@@ -14,7 +14,7 @@ The Anschutz Entertainment Group, with 11,000 employees and an annual revenue of
 
 </p>
 
-## AEG Data Warehouse and Reporting Platform 
+## AEG Ticketing Application and Reporting Platform 
 AEG is one of the largest companies in the live entertainment industry, they book shows at venues and generate revenue from ticket sales. 
 
 The objectives of the AEG Ticketing Application are to first ingest ticket sale data from 3rd parties then associate it with events created in external booking applications.
